@@ -24,6 +24,18 @@ class BukuController extends Controller
             'kategori_id' => 'required|exists:kategoris,id',
         ]);
 
+        if (empty($request->judul)) {
+            return response()->json([
+                'pesan' => 'Kolom tidak boleh kosong',
+            ], 404);
+        }
+
+        if ($request->harga < 1000) {
+            return response()->json([
+                'pesan' => 'Harga tidak boleh kurang dari 1000',
+            ], 404);
+        }
+
         $buku = Buku::create( $request->all());
 
 
@@ -32,11 +44,23 @@ class BukuController extends Controller
             'data' => $buku], 201);
     }
 
+    // mencari data sesuai dengan kategori idnya
+    public function cari($idk) {
+        $bukus = Buku::where('kategori_id', $idk)->get();
+
+        if ($bukus->isEmpty()) {
+            return response()->json([
+                "pesan" => "tidak ditemukan kategori yang sesuai"
+            ], 484);
+        }
+
+        return response()->json($bukus, 200);
+    }
+
     public function show(string $id)
     {
         return Buku::findOrFail($id);
     }
-
 
     public function update(Request $request, $id)
     {
