@@ -39,6 +39,52 @@ KELAS   : 2A TRPL
 
 
 
+**TUGAS PRAKTIKUM**
+1. Menambahkan Validasi Judul dan Harga Pada Tabel Buku
+
+![image](https://github.com/user-attachments/assets/cf599d9c-e570-4626-ad12-c0eb215bf3bc)
+
+   a. Melakukan uji coba ketika judul tidak diisi
+
+   kondisi tetap normal akan tetapi data tidak dapat diinput/ditambahkan
+   ![image](https://github.com/user-attachments/assets/0273ccda-f0dc-414f-ac76-9d99ea7fca64)
+
+   
+   b. Melakukan uji coba ketika harga diisi dengan niminal 200
+
+   kondisi tetap normal akan tetapi data tidak dapat diinput/ditambahkan
+   ![image](https://github.com/user-attachments/assets/2f0c2e57-704a-4b99-8357-69ff8cd14f10)
+
+
+2. Membuat endpoint baru (mencari data sesuai dengan id kategori)
+
+   - seluruh data yang ada
+   
+   ![image](https://github.com/user-attachments/assets/22a260d9-f22c-490c-9171-28dfa9dc1314)
+
+
+   - saat melakukan pencarian pada id kategori 2
+   
+   ![image](https://github.com/user-attachments/assets/7012ba89-081c-41e6-b981-48abbdd043b5)
+
+   - **Tantangan:**
+     Untuk beberapa pertimbangan saat saya membuat endpoint baru yakni saya harus membuat beberapa fungsi baru yang dikhususkan untuk melakukan proses pencarian sesuai 
+dengan id kategori, serta membuat beberapa route baru untuk mengaksesnya. Sehingga menurut saya, saat ingin membuat endpoint baru kita harus sedikit effort. Mungkin juga 
+dari beberapa aspek performa, skabilitas, dan pengalaman pengguna mengalami beberapa pengaruh tertentu. Akan tetapi tujuan utama dibuatnya endpoint baru tersebut tidak lepas 
+dari tujuan utamanya, yakni mempermudah pengguna dalam melakukan akses.
+
+
+3. Uji API Secara Publik
+
+   <img width="757" alt="image" src="https://github.com/user-attachments/assets/b5eeeeaa-7df3-406e-bd5c-ec39414f34e5">
+
+
+
+
+
+
+
+
    
 
 
