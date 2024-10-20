@@ -23,7 +23,7 @@ KELAS   : 2A TRPL
 
    ![image](https://github.com/user-attachments/assets/72aa355f-d589-4417-b95d-cae79b50bd4f)
 
-   Data yang terdapat pada buku
+   - Data yang terdapat pada buku
 
    ![image](https://github.com/user-attachments/assets/0d66797e-f95b-4ec5-9e86-e7498ccd0667)
 
@@ -46,13 +46,13 @@ KELAS   : 2A TRPL
 
    a. Melakukan uji coba ketika judul tidak diisi
 
-   kondisi tetap normal akan tetapi data tidak dapat diinput/ditambahkan
+  -  kondisi tetap normal akan tetapi data tidak dapat diinput/ditambahkan
    ![image](https://github.com/user-attachments/assets/0273ccda-f0dc-414f-ac76-9d99ea7fca64)
 
    
    b. Melakukan uji coba ketika harga diisi dengan niminal 200
 
-   kondisi tetap normal akan tetapi data tidak dapat diinput/ditambahkan
+   - kondisi tetap normal akan tetapi data tidak dapat diinput/ditambahkan
    ![image](https://github.com/user-attachments/assets/2f0c2e57-704a-4b99-8357-69ff8cd14f10)
 
 
