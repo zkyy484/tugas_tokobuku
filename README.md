@@ -76,6 +76,8 @@ dari tujuan utamanya, yakni mempermudah pengguna dalam melakukan akses.
 
 3. Uji API Secara Publik
 
+   https://5x6cfvpc-8000.asse.devtunnels.ms/
+
    <img width="757" alt="image" src="https://github.com/user-attachments/assets/b5eeeeaa-7df3-406e-bd5c-ec39414f34e5">
 
    <img width="959" alt="image" src="https://github.com/user-attachments/assets/7d91a741-4842-41ed-93d7-fa36464a879c">
